@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="apilib.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <button  onclick="leggi()">Leggi (get)</button>
+        <button  onclick="leggiTutto()">Leggi tutto (get all)</button>
+        <button  onclick="aggiungi()">Aggiungi (post)</button>
+        <button  onclick="modifica()">Modifica (put)</button>
+        <button  onclick="cancella()">Elimina (delete)</button>
+        <div id="form">
+            Chiave primaria: <input id="pk" type="text" value="0"/><br>
+            Nome: <input id="nome" type="text"/><br>
+            Cognome: <input id="cognome" type="text"/></div>
+        
+        <div id="contenuto"></div>
+    </body>
+</html>
